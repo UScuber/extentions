@@ -1,7 +1,7 @@
 const board_id = document.getElementsByClassName("btn btn-default btn-sm btn-copy");
 const sub_board_id = document.getElementsByClassName("btn-copy btn-pre");
 
-const isChange_editor_id = document.getElementsByClassName("btn btn-default btn-sm btn-toggle-editor")[0];
+//const isChange_editor_id = document.getElementsByClassName("btn btn-default btn-sm btn-toggle-editor")[0];
 
 let num_samples;
 let copy_btn_flag = false;
@@ -22,7 +22,7 @@ onkeydown = function(e){
   let key_num = Number(e.key) - 1;
   if(key_num == NaN) return;
 
-  if(isChange_editor_id.ariaPressed == "false") return;
+  //if(isChange_editor_id.ariaPressed == "false") return;
 
   if(key_num >= 0 && key_num < num_samples){
     let num = key_num * 2 + (board_id.length & 1);
