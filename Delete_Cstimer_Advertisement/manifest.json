@@ -1,0 +1,12 @@
+{
+  "name": "Delete Cstimer Advertisement",
+  "version": "1.0.0",
+  "manifest_version": 3,
+  "description": "Delete Cstimer Advertisement",
+  "content_scripts": [{
+    "matches": ["https://cstimer.net/"],
+    "js": [
+      "content.js"
+    ]
+  }]
+}
