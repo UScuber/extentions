@@ -1,0 +1,12 @@
+{
+  "name": "Atcoder TestCase Submit ShortCut",
+  "version": "1.0.0",
+  "manifest_version": 3,
+  "description": "Ctrl+Vで提出欄にコードを記入と言語設定、Ctrl+Enterで提出(エディタの切り替えのボタンを押していない場合は反応しない)",
+  "content_scripts": [{
+    "matches": ["https://atcoder.jp/contests*tasks/*"],
+    "js": [
+      "content.js"
+    ]
+  }]
+}
