@@ -1,7 +1,7 @@
 {
   "name": "Atcoder TestCase Copy",
   "version": "1.0.0",
-  "manifest_version": 2,
+  "manifest_version": 3,
   "description": "キーボードの数字を打つとそれに対応した入力例をコピー",
   "content_scripts": [{
     "matches": ["https://atcoder.jp/contests*tasks/*"],
